@@ -7,7 +7,7 @@ After you are done with Fiddler, make sure to run "netsh winhttp reset proxy" in
 ## Installation
 - Step 1: Download Fiddler Classic [https://www.telerik.com/fiddler/fiddler-classic]
 - Step 2: Delete everything in your /disk_cache/webcache/ directory in your install folder.
-- Step 3: Open an administrator command prompt and run "netsh winhttp set proxy 127.0.0.1:8888]
+- Step 3: Open an administrator command prompt and run "netsh winhttp set proxy 127.0.0.1:8888" (without quotation marks)
 - Step 4: Run Fiddler.
 - Step 5: In Fiddler, go to tools < options, go to HTTPS, and enable "Decrypt HTTPS Traffic".
 - Step 6: Back in the main Fiddler window, go to the AutoResponder tab, and enable "Enable rules", "Accept all CONNECTs" and "Unmatched requests passthrough".
